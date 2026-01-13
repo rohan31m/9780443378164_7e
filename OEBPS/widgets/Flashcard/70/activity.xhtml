@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Anterior and Posterior Chambers of the Eye</title>
+    <link rel="stylesheet" href="../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">    
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div aria-hidden="true" id="bwimg" aria-label="Anterior and Posterior Chambers of the Eye" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div aria-hidden="true" id="colorimg" aria-label="Anterior and Posterior Chambers of the Eye " data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div aria-hidden="true"  data-img-src='images/1.png' data-id='1' style='background-image:url("images/1.png")' aria-label="Cornea "></div>
+                        <div aria-hidden="true"  data-img-src='images/2.png' data-id='2' style='background-image:url("images/2.png")' aria-label="Trabecular reticulum (including spaces of Fontana)"></div>
+                        <div aria-hidden="true"  data-img-src='images/3.png' data-id='3' style='background-image:url("images/3.png")' aria-label="Scleral sinus (canal of Schlemm) "></div>
+                        <div aria-hidden="true"  data-img-src='images/4.png' data-id='4' style='background-image:url("images/4.png")' aria-label="Sclera "></div>
+                        <div aria-hidden="true"  data-img-src='images/5.png' data-id='5' style='background-image:url("images/5.png")' aria-label="Ciliary body "></div>
+                        <div aria-hidden="true"  data-img-src='images/6.png' data-id='6' style='background-image:url("images/6.png")' aria-label="Ciliary muscle (meridional and circular fibers) "></div>
+                        <div aria-hidden="true"  data-img-src='images/7.png' data-id='7' style='background-image:url("images/7.png")' aria-label="Zonular fibers (suspensory ligaments of lens)"></div>
+                        <div aria-hidden="true"  data-img-src='images/8.png' data-id='8' style='background-image:url("images/8.png")' aria-label="Posterior chamber"></div>
+                        <div aria-hidden="true"  data-img-src='images/9.png' data-id='9' style='background-image:url("images/9.png")' aria-label="Dilator pupillae"></div>
+                        <div aria-hidden="true"  data-img-src='images/10.png' data-id='10' style='background-image:url("images/10.png")' aria-label="Sphincter pupillae"></div>
+                        <div aria-hidden="true"  data-img-src='images/11.png' data-id='11' style='background-image:url("images/11.png")' aria-label="Lens"></div>
+                        <div aria-hidden="true"  data-img-src='images/12.png' data-id='12' style='background-image:url("images/12.png")' aria-label="Folds of iris"></div>
+                        <div aria-hidden="true"  data-img-src='images/13.png' data-id='13' style='background-image:url("images/13.png")' aria-label="Anterior chamber"></div>
+                        <div aria-hidden="true"  data-img-src='images/lines.png' data-id='lines' style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                        <div aria-hidden="true"  id="popup_text_1" class="hotspot_popup" style="top:81px;left:334px; width: 150px; height: 18px;">Cornea </div>
+                        <div aria-hidden="true"  id="popup_text_2" class="hotspot_popup" style="top:59px;left:129px; width: 150px; height: 54px;">Trabecular reticulum (including spaces of Fontana)</div>
+                        <div aria-hidden="true"  id="popup_text_3" class="hotspot_popup" style="top:153px;left:2px; width: 150px; height: 36px;">Scleral sinus (canal of Schlemm) </div>
+                        <div aria-hidden="true"  id="popup_text_4" class="hotspot_popup" style="top:239px;left:-21px; width: 150px; height: 18px;">Sclera </div>
+                        <div aria-hidden="true"  id="popup_text_5" class="hotspot_popup" style="top:575px;left:88px; width: 150px; height: 18px;">Ciliary body </div>
+                        <div aria-hidden="true" id="popup_text_6" class="hotspot_popup" style="top:500px;left:-30px; width: 100px; height: 72px;">Ciliary muscle (meridional and circular fibers) </div>
+                        <div aria-hidden="true" id="popup_text_7" class="hotspot_popup" style="top:551px;left:189px; width: 150px; height: 54px;">Zonular fibers (suspensory ligaments of lens)</div>
+                        <div aria-hidden="true" id="popup_text_8" class="hotspot_popup" style="top:547px;left:248px; width: 100px; height: 36px;">Posterior chamber</div>
+                        <div aria-hidden="true" id="popup_text_9" class="hotspot_popup" style="top:578px;left:364px; width: 150px; height: 18px;">Dilator pupillae</div>
+                        <div aria-hidden="true" id="popup_text_10" class="hotspot_popup" style="top:567px;left:448px; width: 150px; height: 18px;">Sphincter pupillae</div>
+                        <div aria-hidden="true" id="popup_text_11" class="hotspot_popup" style="top:309px; left: 545px; width: 150px; height: 18px;">Lens</div>
+                        <div aria-hidden="true" id="popup_text_12" class="hotspot_popup" style="top:261px;left:387px; width: 150px; height: 18px;">Folds of iris</div>
+                        <div aria-hidden="true" id="popup_text_13" class="hotspot_popup" style="top:171px;left:519px; width: 100px; height: 18px;">Anterior chamber</div>
+                    </div>
+                    <div class="hotspot">
+                        <button id="hotspot_1" class="notselected" data-id="1" data-align="Left" data-popup="Cornea" style="position: absolute; top: 112px;left:333px; width: 23px; height: 23px;">1</button>
+                        <button id="hotspot_2" class="notselected" data-id="2" data-align="Left" data-popup="Trabecular reticulum (including spaces of Fontana)" style="position: absolute; top: 114px;left:212px; width: 23px; height: 23px;" >2</button>
+                        <button id="hotspot_3" class="notselected" data-id="3" data-align="Left" data-popup="Scleral sinus (canal of Schlemm)" style="position: absolute; top: 201px;left:76px; width: 23px; height: 23px;" >3</button>
+                        <button id="hotspot_4" class="notselected" data-id="4" data-align="Left" data-popup="Sclera" style="position: absolute; top: 237px;left:41px; width: 23px; height: 23px;">4</button>
+                        <button id="hotspot_5" class="notselected" data-id="5" data-align="Left" data-popup="Ciliary body" style="position: absolute; top: 533px;left:111px; width: 23px; height: 23px;">5</button>
+                        <button id="hotspot_6" class="notselected" data-id="6" data-align="Left" data-popup="Ciliary muscle (meridional and circular fibers)" style="position: absolute; top: 476px;left:112px; width: 23px; height: 23px;" >6</button>
+                        <button id="hotspot_7" class="notselected" data-id="7" data-align="Left" data-popup="Zonular fibers (suspensory ligaments of lens)" style="position: absolute; top: 511px;left:225px; width: 23px; height: 23px;">7</button>
+                        <button id="hotspot_8" class="notselected" data-id="8" data-align="Left" data-popup="Posterior chamber" style="position: absolute; top: 509px;left:266px; width: 23px; height: 23px;">8</button>
+                        <button id="hotspot_9" class="notselected" data-id="9" data-align="Right" data-popup="Dilator pupillae" style="position: absolute; top: 537px;left:387px; width: 23px; height: 23px;">9</button>
+                        <button id="hotspot_10" class="notselected" data-id="10" data-align="Right" data-popup="Sphincter pupillae" style="position: absolute; top: 524px;left:469px; width: 23px; height: 23px;">10</button>
+                        <button id="hotspot_11" class="notselected" data-id="11" data-align="Right" data-popup="Lens" style="position: absolute; top: 296px;left:503px; width: 23px; height: 23px;">11</button>
+                        <button id="hotspot_12" class="notselected" data-id="12" data-align="Right" data-popup="Folds of iris" style="position: absolute; top: 258px;left:504px; width: 23px; height: 23px;">12</button>
+                        <button id="hotspot_13" class="notselected" data-id="13" data-align="Right" data-popup="Anterior chamber" style="position: absolute; top: 220px;left:504px; width: 23px; height: 23px;">13</button>
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>     
+</body>
+</html>    
+            
