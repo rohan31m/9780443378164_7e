@@ -1,0 +1,54 @@
+/* synth.css — for enhancing screen reader or TTS rendering */
+/* RICE 73 - Add 'Text-to-Speech' Hint in CSS */
+@media speech {
+
+    /* Speak numbers as individual digits (e.g., "1 2 3") */
+    .digits {
+      -epub-speak-as: digits;
+    }
+  
+    /* Spell out each character (e.g., "H T M L") */
+    .spell {
+      -epub-speak-as: spell-out;
+    }
+  
+    /* Speak as a normal word or sentence (default) */
+    .normal {
+      -epub-speak-as: normal;
+    }
+  
+    /* Interpret text as a literal verbatim value */
+    .literal {
+      -epub-speak-as: literal;
+    }
+  
+    /* Pause before and after speaking */
+    .pause-before::before {
+      content: "";
+      speak: none;
+      pause-before: strong;
+    }
+  
+    .pause-after::after {
+      content: "";
+      speak: none;
+      pause-after: strong;
+    }
+  
+    /* Override for proper nouns or emphasis */
+    .emphasize {
+      stress: strong;
+      pitch: high;
+      richness: high;
+    }
+  
+  }
+
+  /*It can be used like*/
+  /* 
+    <p class="digits">123</p>
+    <p class="spell">HTML</p>
+    <p class="normal">This is normal text.</p>
+    <p class="literal">var x = 10;</p>
+    <p class="emphasize">Important!</p>
+  */
