@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cervical Vertebrae: Atlas and Axis</title>
+    <link rel="stylesheet" href="../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Cervical Vertebrae: Atlas and Axis" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Cervical Vertebrae: Atlas and Axis" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Facet for dens"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Anterior tubercle"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Anterior arch"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Transverse process"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Superior articular surface of atlas"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Groove for vertebral artery"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Posterior arch"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Transverse foramen"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Anterior arch"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Inferior articular surface of atlas"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Spinous process"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Superior articular facet"></div>
+                        <div data-img-src='images/13.png' data-id='13' aria-hidden="true" style='background-image:url("images/13.png")' aria-label="Dens of axis"></div>
+                         <div data-img-src='images/14.png' data-id='14' aria-hidden="true" style='background-image:url("images/14.png")' aria-label="Body of axis"></div>
+                          <div data-img-src='images/15.png' data-id='15' aria-hidden="true" style='background-image:url("images/15.png")' aria-label="Superior articular facet for atlas"></div>
+                           <div data-img-src='images/16.png' data-id='16' aria-hidden="true" style='background-image:url("images/16.png")' aria-label="Pedicle of vertebral arch"></div>
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Facet for dens" style="position:absolute;left: 145px;top: 132px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 160px; left:140px; width: 85px;">Facet for dens</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Anterior tubercle" style="position:absolute;left: 199px;top: 16px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: -5px; left:165px;">Anterior tubercle</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Anterior arch" style="position:absolute; left:115px;top: 16px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: -6px; left:81px;">Anterior arch</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Transverse process" style="position:absolute;left:61px;top:39px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:30px; left:-37px; width: 86px;">Transverse process</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Superior articular surface of atlas" style="position:absolute;left:30px;top:185px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:145px; left:-42px; width: 120px;">Superior articular surface of atlas</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Groove for vertebral artery" style="position:absolute;left:49px;top:233px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:242px; left:-37px; width: 108px;">Groove for vertebral artery</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Posterior arch" style="position:absolute;left:242px;top:214px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:247px; left:231px; width: 86px;">Posterior arch</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Left" data-popup="Transverse foramen" style="position:absolute;left:39px;top:509px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:493px; left:-37px; width: 86px;">Transverse foramen</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Anterior arch" style="position:absolute;left:57px;top:556px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:552px; left:-5px; width: 86px;">Anterior arch</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Inferior articular surface of atlas" style="position:absolute;left:254px;top:550px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top:582px; left:237px; width: 167px;">Inferior articular surface of atlas</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Left" data-popup="Spinous process" style="position:absolute;left:326px;top:511px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top:502px; left:263px; width: 86px;">Spinous process</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Left" data-popup="Superior articular facet" style="position:absolute;left:307px;top:377px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top:337px; left:244px; width: 110px;">Superior articular facet</div>
+                            <button id="hotspot_13" class="notselected" data-id='13' data-align="Left" data-popup="Dens of axis" style="position:absolute;left:353px;top:328px;">13</button>
+                            <div id='popup_text_13' aria-hidden="true" class="hotspot_popup" style="top:306px; left:316px; width: 110px;">Dens of axis</div>
+                             <button id="hotspot_14" class="notselected" data-id='14' data-align="Left" data-popup="Body of axis" style="position:absolute;left:316px;top:237px;">14</button>
+                            <div id='popup_text_14' aria-hidden="true" class="hotspot_popup" style="top:268px; left:289px; width: 110px;">Body of axis</div>
+                             <button id="hotspot_15" class="notselected" data-id='15' data-align="Left" data-popup="Superior articular facet for atlas" style="position:absolute;left:315px;top:73px;">15</button>
+                            <div id='popup_text_15' aria-hidden="true" class="hotspot_popup" style="top:31px; left:293px;">Superior articular facet for atlas</div>
+                             <button id="hotspot_16" class="notselected" data-id='16' data-align="Right" data-popup="Pedicle of vertebral arch" style="position:absolute;left:495px;top:72px;">16</button>
+                            <div id='popup_text_16' aria-hidden="true" class="hotspot_popup" style="top:40px; left:444px;">Pedicle of vertebral arch</div>
+
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
