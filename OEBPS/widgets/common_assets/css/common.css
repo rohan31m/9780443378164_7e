@@ -40,6 +40,26 @@ video.hls-video{
 	max-height: 100% !important;
 	object-fit: fill !important;
 }
+/* RICE 66 - Add CSS style for Detailed Description, Captions, Subtitles (DD)*/
+video::cue {
+	font-size: 0.75rem; /* slightly larger for readability */
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.6); /* same as your rgb / syntax */
+	padding: 0.2em 0.4em; /* gives spacing around captions */
+	text-shadow: 1px 1px 2px #000; /* improves readability on bright video */
+	letter-spacing: 0.3px;
+	line-height: 1.4;
+	text-align: center;
+}
+
+::cue(u) {
+	color: #ff3b3b; /* slightly brighter red for visibility */
+	text-decoration: underline;
+}
+::cue(b) { font-weight: bold; }
+::cue(i) { font-style: italic; }
+
+/*RICE 66 - End*/
 video::-internal-media-controls-download-button { 
     display:none; 
 } 
@@ -51,10 +71,10 @@ video::-webkit-media-controls-enclosure {
 video::-webkit-media-controls-panel { 
     width: calc(100% + 30px); /* Adjust as needed */ 
 }
-.video-area .vidleg
+.video-area .vidleg, .video-area .ddesc
 {
 	text-indent: 0em !important;
 }
-.video-area .vidleg *{
+.video-area .vidleg *, .video-area .ddesc *{
     text-indent: unset !important;
 }
