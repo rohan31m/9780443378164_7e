@@ -4967,6 +4967,11 @@ display: table-cell;
 	}
 }
 
+iframe {
+	border:none;
+	width: 100%;
+}
+
 /********** RICE-49 (Add Physical Page Numbers in ePub and ePub4Mobi) ***********/
 
 p + div[role="doc-pagebreak"]{
@@ -5179,3 +5184,12 @@ th.tcolhd1 a
 	text-decoration:none;
 	background-color:#ffffff;
 }
+ol.number {
+	list-style-type: decimal;
+	padding-left: 3em; /* optional: increases space for the marker */
+  }
+  
+  ol.number li::marker {
+	font-weight: bold; /* makes the number bold */
+	content: counter(list-item) ".  "; /* adds a dot and space after the number */
+  }
