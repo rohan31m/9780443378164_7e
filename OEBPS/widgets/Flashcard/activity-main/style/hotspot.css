@@ -146,7 +146,7 @@
     height: 0px;    
     padding-bottom: 500px;
     position: relative;    
-    margin: 80px auto 0px;    
+    margin: 0px auto;    
 }
 .w-hotspot .titleContainer{
 	position: absolute;
@@ -249,10 +249,11 @@
     border-radius: 5px;*/
   text-align: center;
   /*  display: none;*/
-/*    -moz-transition: all 0.5s ease-out;
+  /*-moz-transition: all 0.5s ease-out;
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;*/
+    transition: all 0.5s ease-out;
+    */
 }
 
  .w-hotspot .hotspot_popup {
@@ -261,15 +262,22 @@
     display: none;
  }
 
-/*.w-hotspot .zoomWrapper{  
-  width: 524px;
-  height: 560px;
-  top: 10px;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
+.activity-scale95{
+  transform-origin: center;
+  transform: scale(0.95);
 }
-*/
+.activity-scale90{
+  transform-origin: center;
+  transform: scale(0.9);
+}
+.activity-scale85{
+  transform-origin: center;
+  transform: scale(0.85);
+}
+.activity-scale80{
+  transform-origin: center;
+  transform: scale(0.80);
+}
 
 :focus-visible{
   outline: 2px solid #EB6500;
