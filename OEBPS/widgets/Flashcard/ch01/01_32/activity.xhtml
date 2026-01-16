@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Muscles of Pharynx</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Muscles of Pharynx" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Muscles of Pharynx" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Superior pharyngeal constrictor"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Stylopharyngeus muscle"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Medial pterygoid muscle"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Stylohyoid muscle"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Digastric muscle (posterior belly)"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Pharyngobasilar fascia"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Cartilaginous part of auditory tube"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Levator veli palatini"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Palatopharyngeus muscle"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Epiglottis"></div>
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Superior pharyngeal constrictor" style="position:absolute;left:128px;top:321px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top:327px; left:-23px;">Superior pharyngeal constrictor</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Stylopharyngeus muscle" style="position:absolute;left:100px;top:289px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top:293px; left:-28px;">Stylopharyngeus muscle</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Medial pterygoid muscle" style="position:absolute;left:79px;top:253px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top:256px; left:-42px;">Medial pterygoid muscle</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Stylohyoid muscle" style="position:absolute;left:63px;top:209px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:213px; left:-20px;width:100px;">Stylohyoid muscle</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Digastric muscle (posterior belly)" style="position:absolute;left:55px;top:164px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:151px; left:-16px;width:100px;">Posterior belly of digastric muscle</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Pharyngobasilar fascia" style="position:absolute;left:54px;top:120px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:101px; left:-34px;">Pharyngobasilar fascia</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Cartilaginous part of auditory tube" style="position:absolute;left:481px;top:121px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:59px; left:472px;width:100px;">Cartilaginous part of auditory tube</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Levator veli palatini" style="position:absolute;left:480px;top:163px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:197px; left:440px;">Levator veli palatini</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Palatopharyngeus muscle" style="position:absolute;left:480px;top:256px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:217px; left:458px;">Palatopharyngeus muscle</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Epiglottis" style="position:absolute;left:480px;top:305px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top:313px; left:514px;">Epiglottis</div>
+                            
+                            
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
