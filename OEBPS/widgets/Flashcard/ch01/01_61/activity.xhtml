@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Maxillary Artery</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Maxillary Artery" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Maxillary Artery" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Maxillary artery"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="External carotid artery"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Inferior alveolar artery"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Facial artery"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Greater (descending) palatine artery"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Left and right greater palatine arteries"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Posterior septal branches"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Posterior superior alveolar artery"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Infraorbital artery"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Sphenopalatine artery"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Deep temporal arteries and nerves"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Middle meningeal artery"></div>
+                       
+
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Maxillary artery" style="position:absolute;left:507px;top:367px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top:395px; left:466px;">Maxillary artery</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Right" data-popup="External carotid artery" style="position:absolute;left:497px;top:421px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top:417px; left:530px; width:84px;">External carotid artery</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Right" data-popup="Inferior alveolar artery" style="position:absolute;left:482px;top:471px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top:509px; left:469px;">Inferior alveolar artery</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Right" data-popup="Facial artery" style="position:absolute;left:350px;top:532px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:571px; left:328px;">Facial artery</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Greater (descending) palatine artery" style="position:absolute;left:168px;top:502px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:539px; left:140px;">Greater (descending) palatine artery</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Left and right greater palatine arteries" style="position:absolute;left:69px;top:502px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:539px; left:-18px;">Left and right greater palatine arteries</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Posterior septal branches" style="position:absolute;left:24px;top:230px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:263px; left:-17px;">Posterior septal branches</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Posterior superior alveolar artery" style="position:absolute;left:24px;top:188px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:133px; left:-28px; width:100px;">Posterior superior alveolar artery</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Infraorbital artery" style="position:absolute;left:43px;top:149px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:126px; left:-30px; width:176px;">Infraorbital artery</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Sphenopalatine artery" style="position:absolute;left:195px;top:108px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top:69px; left:153px; width:176px;">Sphenopalatine artery</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Right" data-popup="Deep temporal arteries and nerves" style="position:absolute;left:357px;top:109px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top:63px; left:322px;">Deep temporal arteries and nerves</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Right" data-popup="Middle meningeal artery" style="position:absolute;left:490px;top:161px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top:118px; left:436px;">Middle meningeal artery</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
