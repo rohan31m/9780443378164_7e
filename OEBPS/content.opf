@@ -47,29 +47,32 @@
 <meta property="schema:accessibilityFeature">ttsMarkup</meta><meta property="schema:accessibilitySummary">This EPUB includes pronunciation support.</meta></metadata>
 <manifest>
 
-<item id="css1" href="widgets/Flashcard/ch01/activity-main/style/jquery-ui.css" media-type="text/css"/>
-<item id="css2" href="widgets/Flashcard/ch01/activity-main/style/style.css" media-type="text/css"/>
-<item id="js1" href="widgets/Flashcard/ch01/activity-main/js/jquery-3.1.1.min.js" media-type="application/javascript"/>
-<item id="js2" href="widgets/Flashcard/ch01/activity-main/js/jquery-ui.js" media-type="application/javascript"/>
-<item id="js3" href="widgets/Flashcard/ch01/activity-main/js/main.js" media-type="application/javascript"/>
-<item id="js4" href="widgets/Flashcard/ch01/activity-main/js/scale.js" media-type="application/javascript"/>
-<item id="font1" href="widgets/Flashcard/ch01/activity-main/fonts/arial/arial.eot" media-type="application/vnd.ms-fontobject"/>
-<item id="font2" href="widgets/Flashcard/ch01/activity-main/fonts/arial/arial.woff" media-type="font/woff"/>
-<item id="font3" href="widgets/Flashcard/ch01/activity-main/fonts/arial/arial.ttf" media-type="font/ttf"/>
-<item id="activity2" href="widgets/Flashcard/ch01/activity-main/js/activity-frame-script.js" media-type="application/javascript"/>
-<item id="idref1" href="widgets/Flashcard/ch01/activity-main/style/hotspot.css" media-type="text/css"/>
-<item id="idref2" href="widgets/Flashcard/ch01/activity-main/js/iscroll-zoom.js" media-type="application/javascript"/>
-<item id="idref3" href="widgets/Flashcard/ch01/activity-main/js/jquery.ui.touch-punch.min.js" media-type="application/javascript"/>
-<item id="idref4" href="widgets/Flashcard/ch01/activity-main/js/widgetinit.js" media-type="application/javascript"/>
-<item id="idref5" href="widgets/Flashcard/ch01/activity-main/js/hotspot.js" media-type="application/javascript"/>
+<item id="js1" href="widgets/Flashcard/activity-main/js/jquery-3.1.1.min.js" media-type="application/javascript"/>
+<item id="js2" href="widgets/Flashcard/activity-main/js/jquery-ui.js" media-type="application/javascript"/>
+<item id="js3" href="widgets/Flashcard/activity-main/js/main.js" media-type="application/javascript"/>
+<item id="js4" href="widgets/Flashcard/activity-main/js/scale.js" media-type="application/javascript"/>
 
+<item id="font1" href="widgets/Flashcard/activity-main/fonts/arial/arial.eot" media-type="application/vnd.ms-fontobject"/>
+<item id="font2" href="widgets/Flashcard/activity-main/fonts/arial/arial.woff" media-type="font/woff"/>
+<item id="font3" href="widgets/Flashcard/activity-main/fonts/arial/arial.ttf" media-type="font/ttf"/>
+
+<item id="activity2" href="widgets/Flashcard/activity-main/js/activity-frame-script.js" media-type="application/javascript"/>
+<item id="idref1" href="widgets/Flashcard/activity-main/style/hotspot.css" media-type="text/css"/>
+<item id="idref2" href="widgets/Flashcard/activity-main/js/iscroll-zoom.js" media-type="application/javascript"/>
+<item id="idref3" href="widgets/Flashcard/activity-main/js/jquery.ui.touch-punch.min.js" media-type="application/javascript"/>
+<item id="idref4" href="widgets/Flashcard/activity-main/js/widgetinit.js" media-type="application/javascript"/>
+<item id="idref5" href="widgets/Flashcard/activity-main/js/hotspot.js" media-type="application/javascript"/>
+
+
+<item id="idrefa1" href="widgets/Flashcard/activity-main/style/style.css" media-type="text/css"/>
+<item id="idrefa2" href="widgets/Flashcard/activity-main/style/jquery-ui.css" media-type="text/css"/>
 
 <item id="index_1" href="widgets/Flashcard/ch01/01_01/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_2" href="widgets/Flashcard/ch01/01_05/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_3" href="widgets/Flashcard/ch01/01_63/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="444444" href="widgets/Flashcard/ch01/01_01/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="555555" href="widgets/Flashcard/ch01/01_05/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="666666" href="widgets/Flashcard/ch01/01_63/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="activityframe01" href="widgets/Flashcard/ch01/01_01/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="activityframe02" href="widgets/Flashcard/ch01/01_05/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="activityframe03" href="widgets/Flashcard/ch01/01_63/activityframe.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="activity_1" href="widgets/Flashcard/ch01/01_01/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="activity_2" href="widgets/Flashcard/ch01/01_05/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="activity_3" href="widgets/Flashcard/ch01/01_63/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
