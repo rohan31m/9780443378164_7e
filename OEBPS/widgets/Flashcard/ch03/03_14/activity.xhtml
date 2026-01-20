@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Arteries of Thoracic Aorta</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Arteries of Thoracic Aorta" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Arteries of Thoracic Aorta" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Right subclavian artery"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Intercostal artery"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Inferior phrenic arteries"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Celiac trunk"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Esophageal branch of left gastric artery"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Esophageal branches of aorta"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Descending aorta"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Right bronchial branch of aorta"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Aortic arch"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Brachiocephalic trunk"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Left subclavian artery"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Thyrocervical trunk"></div>
+                      
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Right subclavian artery" style="position:absolute;left: 64px;top: 67px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 100px; left: -13px;">Right subclavian artery</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Intercostal artery" style="position:absolute;left: 64px;top: 179px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 215px; left: -12px;">Intercostal artery</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Inferior phrenic arteries" style="position:absolute;left: 46px;top: 570px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 536px; left: -19px;">Inferior phrenic arteries</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Celiac trunk" style="position:absolute;left: 46px;top: 623px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 654px; left: 7px; width: 100px;">Celiac trunk</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Esophageal branch of left gastric artery" style="position:absolute;left: 430px;top: 604px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 590px; left: 470px; width: 120px;">Esophageal branch of left gastric artery</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Esophageal branches of aorta" style="position:absolute;left: 432px;top: 369px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 405px; left: 406px;">Esophageal branches of aorta</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Descending aorta" style="position:absolute;left: 432px;top: 266px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 301px; left: 400px;">Descending aorta</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Right bronchial branch of aorta" style="position:absolute;left: 432px;top: 198px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 199px; left: 467px; width: 110px;">Right bronchial branch of aorta</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Aortic arch" style="position:absolute;left: 432px;top: 156px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top: 161px; left: 471px; width: 110px;">Aortic arch</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Brachiocephalic trunk" style="position:absolute;left: 432px;top: 117px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top: 112px; left: 475px; width: 110px;">Brachiocephalic trunk</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Right" data-popup="Left subclavian artery" style="position:absolute;left: 432px;top: 54px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top: 52px; left: 475px; width: 110px;">Left subclavian artery</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Right" data-popup="Thyrocervical trunk" style="position:absolute;left: 433px;top: 11px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top: 10px; left: 475px; width: 110px;">Thyrocervical trunk</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
