@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Lymphatic Drainage of Breast</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Lymphatic Drainage of Breast" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Lymphatic Drainage of Breast" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Left auricle of heart"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Left atrioventricular valve (mitral valve) (anterior and posterior leaflets)"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Superior papillary muscle"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Chordae tendineae"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Coronary sinus"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Inferior vena cava"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Left atrium"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Left pulmonary veins"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Right pulmonary artery"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Left pulmonary artery"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Ligamentum arteriosum"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Aortic arch"></div>
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Left auricle of heart" style="position:absolute;left:120px;top:158px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top:124px; left:91px;">Left auricle of heart</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Left atrioventricular valve (mitral valve) (anterior and posterior leaflets)" style="position:absolute;left:71px;top:209px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top:127px; left:-17px; width:152px;">Left atrioventricular valve (mitral valve) (anterior and posterior leaflets)</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Superior papillary muscle" style="position:absolute;left:35px;top:260px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top:237px; left:-32px; width:102px;">Superior papillary muscle</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Chordae tendineae" style="position:absolute;left:19px;top:322px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:369px; left:-29px;">Chordae tendineae</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Coronary sinus" style="position:absolute;left:308px;top:550px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:592px; left:266px;">Coronary sinus</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Inferior vena cava" style="position:absolute;left:443px;top:549px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:594px; left:415px;">Inferior vena cava</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Left" data-popup="Left atrium" style="position:absolute;left:522px;top:365px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:408px; left:504px;">Left atrium</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Left" data-popup="Left pulmonary veins" style="position:absolute;left:521px;top:326px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:280px; left:476px; width:115px;">Left pulmonary veins</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Left" data-popup="Right pulmonary artery" style="position:absolute;left:522px;top:223px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:263px; left:469px; width:160px;">Right pulmonary artery</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Left" data-popup="Left pulmonary artery" style="position:absolute;left:522px;top:186px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top:164px; left:430px; width:200px;">Left pulmonary artery</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Left" data-popup="Ligamentum arteriosum" style="position:absolute;left:521px;top:136px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top:97px; left:501px;">Ligamentum arteriosum</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Left" data-popup="Aortic arch" style="position:absolute;left:489px;top:65px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top:37px; left:477px;">Aortic arch</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
