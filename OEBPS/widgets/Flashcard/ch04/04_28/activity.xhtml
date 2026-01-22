@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Abdominal Wall and Viscera: Median (Sagittal) Section</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Abdomen"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Abdominal Wall and Viscera: Median (Sagittal) Section" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Abdominal Wall and Viscera: Median (Sagittal) Section" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Liver"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Lesser omentum"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Omental bursa (lesser sac)"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Transverse mesocolon"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Transverse colon"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Small intestine"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Urinary bladder"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Prostate"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Rectum"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Seminal vesicle"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Rectovesical pouch"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Abdominal aorta"></div>
+                        <div data-img-src='images/13.png' data-id='13' aria-hidden="true" style='background-image:url("images/13.png")' aria-label="Horizontal part of duodenum"></div>
+                        <div data-img-src='images/14.png' data-id='14' aria-hidden="true" style='background-image:url("images/14.png")' aria-label="Pancreas"></div>
+                        <div data-img-src='images/15.png' data-id='15' aria-hidden="true" style='background-image:url("images/15.png")' aria-label="Celiac trunk"></div>
+                        <div data-img-src='images/16.png' data-id='16' aria-hidden="true" style='background-image:url("images/16.png")' aria-label="Esophagus"></div>
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Liver" style="position:absolute;left:55px;top:82px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="width: 43px; top: 85px; left: -9px;">Liver</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Lesser omentum" style="position:absolute;left:55px;top:118px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="width: 70px; top: 119px; left: -26px;">Lesser omentum</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Omental bursa (lesser sac)" style="position:absolute;left:55px;top:154px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="width: 85px; top: 155px; left: -39px;">Omental bursa (lesser sac)</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Transverse mesocolon" style="position:absolute;left:55px;top:224px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="width: 82px; top: 218px; left: -35px;">Transverse mesocolon</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Transverse colon" style="position:absolute;left:55px;top:264px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="width: 91px; top: 259px; left: -41px;">Transverse colon</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Small intestine" style="position:absolute;left:55px;top:318px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="width: 63px; top: 312px; left: -22px;">Small intestine</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Left" data-popup="Urinary bladder" style="position:absolute;left:55px;top:472px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="width: 63px; top: 468px; left: -20px;">Urinary bladder</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Prostate" style="position:absolute;left:472px;top:583px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="width: 63px; top: 583px; left: 518px;">Prostate</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Rectum" style="position:absolute;left:472px;top:526px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="width: 68px; top: 532px; left: 509px;">Rectum</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Seminal vesicle" style="position:absolute;left:472px;top:467px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="width: 65px; top: 466px; left: 506px;">Seminal vesicle</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Left" data-popup="Rectovesical pouch" style="position:absolute;left:472px;top:419px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="width: 96px; top: 379px; left: 490px;">Rectovesical pouch</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Left" data-popup="Abdominal aorta" style="position:absolute;left:472px;top:289px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="width: 80px; top: 293px; left: 504px;">Abdominal aorta</div>
+                            <button id="hotspot_13" class="notselected" data-id='13' data-align="Left" data-popup="Horizontal part of duodenum" style="position:absolute;left:472px;top:232px;">13</button>
+                            <div id='popup_text_13' aria-hidden="true" class="hotspot_popup" style="width: 80px; top: 229px; left: 504px;">Horizontal part of duodenum</div>
+                            <button id="hotspot_14" class="notselected" data-id='14' data-align="Left" data-popup="Pancreas" style="position:absolute;left:472px;top:194px;">14</button>
+                            <div id='popup_text_14' aria-hidden="true" class="hotspot_popup" style="width: 70px; top: 198px; left: 505px;">Pancreas</div>
+                            <button id="hotspot_15" class="notselected" data-id='15' data-align="Left" data-popup="Celiac trunk" style="position:absolute;left:472px;top:133px;">15</button>
+                            <div id='popup_text_15' aria-hidden="true" class="hotspot_popup" style="width: 52px; top: 135px; left: 508px;">Celiac trunk</div>
+                            <button id="hotspot_16" class="notselected" data-id='16' data-align="Left" data-popup="Esophagus" style="position:absolute;left:472px;top:69px;">16</button>
+                            <div id='popup_text_16' aria-hidden="true" class="hotspot_popup" style="width: 89px; top: 71px; left: 506px;">Esophagus</div>
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
