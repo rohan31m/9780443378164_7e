@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Arteries of Spinal Cord: Intrinsic Distribution</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Arteries of Spinal Cord: Intrinsic Distribution" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Arteries of Spinal Cord: Intrinsic Distribution" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Posterior spinal arteries"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Anterior spinal artery"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Anterior radicular artery"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Dorsal branch of posterior intercostal artery"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Posterior intercostal artery"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Thoracic (descending) aorta"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Segmental medullary artery"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Anterior spinal artery"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Pial arterial plexus"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Right posterior spinal artery"></div>
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Right" data-popup="Posterior spinal arteries" style="position:absolute;left: 398px;top: 5px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 9px; left:446px;">Posterior spinal arteries</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Right" data-popup="Anterior spinal artery" style="position:absolute;left: 398px;top: 47px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 44px; left:437px;">Anterior spinal artery</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Right" data-popup="Anterior radicular artery" style="position:absolute; left: 398px;top: 87px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 92px; left:446px;">Anterior radicular artery</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Right" data-popup="Dorsal branch of posterior intercostal artery" style="position:absolute;left:398px;top:133px">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:130px; left:446px;">Dorsal branch of posterior intercostal artery</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Posterior intercostal artery" style="position:absolute;left:398px;top:209px">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:214px; left:446px;">Posterior intercostal artery</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Thoracic (descending) aorta" style="position:absolute;left:383px;top:285px">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:280px; left:437px;">Thoracic (descending) aorta</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Segmental medullary artery" style="position:absolute;left:152px;top:470px">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:469px;left: 64px; width: 83px;">Segmental medullary artery</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Anterior spinal artery" style="position:absolute;left:152px;top:504px">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:508px; left:-12px;">Anterior spinal artery</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Left" data-popup="Pial arterial plexus" style="position:absolute;left:152px;top:557px">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:560px; left:0px;">Pial arterial plexus</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Left" data-popup="Right posterior spinal artery" style="position:absolute;left:409px;top:393px">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top:387px; left:450px;">Right posterior spinal artery</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
