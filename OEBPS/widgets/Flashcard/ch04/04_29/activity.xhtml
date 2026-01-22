@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Schematic Cross Section of Abdomen at T12</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Abdomen"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Schematic Cross Section of Abdomen at T12" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Schematic Cross Section of Abdomen at T12" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Liver"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Falciform ligament"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Portal vein"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Inferior vena cava"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Omental bursa (lesser sac)"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Right kidney"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Abdominal aorta"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Left suprarenal (adrenal) gland"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Splenorenal ligament with splenic vessels"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Spleen"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Gastrosplenic ligament with short gastric vessels"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Stomach"></div>
+                        <div data-img-src='images/13.png' data-id='13' aria-hidden="true" style='background-image:url("images/13.png")' aria-label="Rectus abdominis muscle (in rectus sheath)"></div>
+                        <div data-img-src='images/14.png' data-id='14' aria-hidden="true" style='background-image:url("images/14.png")' aria-label="Lesser omentum"></div>
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Liver" style="position:absolute;left:233px;top:94px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="width: 40px; top: 54px; left: 225px;">Liver</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Falciform ligament" style="position:absolute;left:116px;top:105px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="width: 140px; top: 106px; left: -33px;">Falciform ligament</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Portal vein" style="position:absolute;left:11px;top:259px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="width: 50px; top: 252px; left: -40px;">Portal vein</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Inferior vena cava" style="position:absolute;left:11px;top:319px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="width: 53px; top: 304px; left: -40px;">Inferior vena cava</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Omental bursa (lesser sac)" style="position:absolute;left:23px;top:487px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="width: 67px; top: 463px; left: -32px;">Omental bursa (lesser sac)</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Right kidney" style="position:absolute;left:162px;top:542px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="width: 93px; top: 581px; left: 126px;">Right kidney</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Left" data-popup="Abdominal aorta" style="position:absolute;left:261px;top:542px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="width: 121px; top: 582px; left: 234px;">Abdominal aorta</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Left suprarenal (adrenal) gland" style="position:absolute;left:398px;top:543px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="width: 118px; top: 541px; left: 430px;">Left suprarenal (adrenal) gland</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Splenorenal ligament with splenic vessels" style="position:absolute;left:509px;top:491px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="width: 100px; top: 523px; left: 483px;">Splenorenal ligament with splenic vessels</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Spleen" style="position:absolute;left:509px;top:330px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="width: 56px; top: 371px; left: 513px;">Spleen</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Right" data-popup="Gastrosplenic ligament with short gastric vessels" style="position:absolute;left:509px;top:202px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="width: 103px; top: 58px; left: 485px;">Gastrosplenic ligament with short gastric vessels</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Right" data-popup="Stomach" style="position:absolute;left:472px;top:151px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="width: 70px; top: 152px; left: 513px;">Stomach</div>
+                            <button id="hotspot_13" class="notselected" data-id='13' data-align="Right" data-popup="Rectus abdominis muscle (in rectus sheath)" style="position:absolute;left:344px;top:94px;">13</button>
+                            <div id='popup_text_13' aria-hidden="true" class="hotspot_popup" style="width: 150px; top: 80px; left: 381px;">Rectus abdominis muscle (in rectus sheath)</div>
+                            <button id="hotspot_14" class="notselected" data-id='14' data-align="Right" data-popup="Lesser omentum" style="position:absolute;left:287px;top:94px;">14</button>
+                            <div id='popup_text_14' aria-hidden="true" class="hotspot_popup" style="width: 69px; top: 48px; left: 277px;">Lesser omentum</div>
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            

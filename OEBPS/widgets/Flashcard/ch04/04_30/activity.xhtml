@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Schematic Cross Section of Abdomen at L2 and L3</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Abdomen"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Schematic Cross Section of Abdomen at L2 and L3" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Schematic Cross Section of Abdomen at L2 and L3" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Ileum"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Ascending colon"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Right paracolic gutter"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Psoas major muscle"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Inferior vena cava"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Abdominal aorta"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Intervertebral disc (between L2 and L3 vertebral bodies)"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Erector spinae muscle"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Quadratus lumborum muscle"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Descending colon"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Loops of jejunum"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Internal abdominal oblique muscle"></div>
+                        <div data-img-src='images/13.png' data-id='13' aria-hidden="true" style='background-image:url("images/13.png")' aria-label="Greater omentum"></div>
+                        <div data-img-src='images/14.png' data-id='14' aria-hidden="true" style='background-image:url("images/14.png")' aria-label="Omental appendices"></div>
+                        <div data-img-src='images/15.png' data-id='15' aria-hidden="true" style='background-image:url("images/15.png")' aria-label="Linea alba"></div>
+                        <div data-img-src='images/16.png' data-id='16' aria-hidden="true" style='background-image:url("images/16.png")' aria-label="Transverse colon"></div>
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Ileum" style="position:absolute;left:51px;top:174px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 179px;left:-1px; width: 43px;">Ileum</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Ascending colon" style="position:absolute;left:9px;top:246px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 225px;left:-41px; width: 82px;">Ascending colon</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Right paracolic gutter" style="position:absolute;left:9px;top:401px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 409px;left:-40px; width: 72px;">Right paracolic gutter</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Psoas major muscle" style="position:absolute;left:80px;top:506px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 493px;left:20px; width: 54px;">Psoas major muscle</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Inferior vena cava" style="position:absolute;left:130px;top:549px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 554px;left:69px; width: 59px;">Inferior vena cava</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Abdominal aorta" style="position:absolute;left:193px;top:549px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 589px;left:173px; width: 126px;">Abdominal aorta</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Left" data-popup="Intervertebral disc (between L2 and L3 vertebral bodies)" style="position:absolute;left:337px;top:549px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 590px;left:288px; width: 150px;">Intervertebral disc (between L2 and L3 vertebral bodies)</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Erector spinae muscle" style="position:absolute;left:411px;top:549px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 550px;left:450px; width: 63px;">Erector spinae muscle</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Quadratus lumborum muscle" style="position:absolute;left:477px;top:496px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top: 497px;left:507px; width: 81px;">Quadratus lumborum muscle</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Descending colon" style="position:absolute;left:508px;top:452px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top: 411px;left:501px; width: 92px;">Descending colon</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Right" data-popup="Loops of jejunum" style="position:absolute;left:508px;top:204px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top: 236px;left:514px; width: 70px;">Loops of jejunum</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Right" data-popup="Internal abdominal oblique muscle" style="position:absolute;left:482px;top:158px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top: 98px;left:510px; width: 79px;">Internal abdominal oblique muscle</div>
+                            <button id="hotspot_13" class="notselected" data-id='13' data-align="Right" data-popup="Greater omentum" style="position:absolute;left:416px;top:122px;">13</button>
+                            <div id='popup_text_13' aria-hidden="true" class="hotspot_popup" style="top: 104px;left:445px; width: 59px;">Greater omentum</div>
+                            <button id="hotspot_14" class="notselected" data-id='14' data-align="Right" data-popup="Omental appendices" style="position:absolute;left:312px;top:105px;">14</button>
+                            <div id='popup_text_14' aria-hidden="true" class="hotspot_popup" style="top: 57px;left:298px; width: 92px;">Omental appendices</div>
+                            <button id="hotspot_15" class="notselected" data-id='15' data-align="Right" data-popup="Linea alba" style="position:absolute;left:259px;top:105px;">15</button>
+                            <div id='popup_text_15' aria-hidden="true" class="hotspot_popup" style="top: 71px;left:237px; width: 84px;">Linea alba</div>
+                            <button id="hotspot_16" class="notselected" data-id='16' data-align="Right" data-popup="Transverse colon" style="position:absolute;left:132px;top:124px;">16</button>
+                            <div id='popup_text_16' aria-hidden="true" class="hotspot_popup" style="top: 78px;left:125px; width: 85px;">Transverse colon</div>
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
