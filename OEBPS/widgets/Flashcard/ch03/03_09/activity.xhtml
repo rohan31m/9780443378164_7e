@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nerves of Heart</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Head and Neck"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Head and Neck"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Nerves of Heart" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Nerves of Heart" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Superior cervical ganglion of sympathetic trunk"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Right vagus nerve (CN X)"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Phrenic nerve"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Thoracic cardiac nerves"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Cardiac plexus"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Phrenic nerve (C3, 4, and 5 &#x201c;keep the diaphragm alive&#x201d;)"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Left recurrent laryngeal nerve"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Thoracic cardiac branches of vagus nerve (CN X)"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Middle cervical ganglion of sympathetic trunk"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Left vagus nerve (CN X)"></div>
+                        
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Superior cervical ganglion of sympathetic trunk" style="position:absolute;left: 70px;top: 35px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 20px; left:-25px; width: 85px;">Superior cervical ganglion of sympathetic trunk</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Right vagus nerve (CN X)" style="position:absolute;left:70px;top: 70px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 66px; left:-31px; width: 101px;">Right vagus nerve (CN X)</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Phrenic nerve" style="position:absolute; left:70px;top: 167px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 171px; left:-40px; width: 110px;">Phrenic nerve</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Thoracic cardiac nerves" style="position:absolute;left:70px;top:401px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 398px; left:-40px; width: 116px;">Thoracic cardiac nerves</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Cardiac plexus" style="position:absolute;left:70px;top:470px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 465px; left:7px; width: 44px;">Cardiac plexus</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Phrenic nerve (C3, 4, and 5 &#x201c;keep the diaphragm alive&#x201d;)" style="position:absolute;left:70px;top:533px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 505px; left:-36px; width: 110px;">Phrenic nerve (C3, 4, and 5 &#x201c;keep the diaphragm alive&#x201d;)</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Left recurrent laryngeal nerve" style="position:absolute;left:475px;top:441px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 418px; left:515px; width: 67px;">Left recurrent laryngeal nerve</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Thoracic cardiac branches of vagus nerve (CN X)" style="position:absolute;left:475px;top:389px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 350px; left:515px; width: 68px;">Thoracic cardiac branches of vagus nerve (CN X)</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Middle cervical ganglion of sympathetic trunk" style="position:absolute;left:475px;top:170px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top: 144px; left:506px; width: 88px;">Middle cervical ganglion of sympathetic trunk</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Left vagus nerve (CN X)" style="position:absolute;left:475px;top:60px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top: 39px; left:515px; width: 50px;">Left vagus nerve (CN X)</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
