@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Intrinsic Muscles of Hand</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Upper Limb"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Upper Limb"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Intrinsic Muscles of Hand" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Intrinsic Muscles of Hand" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Abductor pollicis brevis muscle (cut)"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Flexor retinaculum of wrist (reflected)"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Median nerve"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Radius"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Radial artery"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Ulnar nerve and artery"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Pisiform bone"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Deep palmar (arterial) arch"></div>
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Abductor pollicis brevis muscle (cut)" style="position:absolute;left:36px;top:288px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 271px;left: -20px; width: 72px;">Abductor pollicis brevis muscle (cut)</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Flexor retinaculum of wrist (reflected)" style="position:absolute;left:159px;top:141px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 134px;left: 26px; width: 137px;">Flexor retinaculum of wrist (reflected)</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Median nerve" style="position:absolute;left:166px;top:108px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 110px;left: 64px; width: 105px;">Median nerve</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Right" data-popup="Radius" style="position:absolute;left:175px;top:75px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 79px;left: 116px; width: 52px;">Radius</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Radial artery" style="position:absolute;left:185px;top:42px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 44px;left: 85px; width: 93px;">Radial artery</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Ulnar nerve and artery" style="position:absolute;left:510px;top:118px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 112px;left: 539px; width: 49px;">Ulnar nerve and artery</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Pisiform bone" style="position:absolute;left:510px;top:181px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 214px;left: 528px; width: 61px;">Pisiform bone</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Deep palmar (arterial) arch" style="position:absolute;left:510px;top:372px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 330px;left: 491px; width: 98px;">Deep palmar (arterial) arch</div>
+                            
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            

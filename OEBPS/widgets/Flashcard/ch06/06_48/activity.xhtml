@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Intrinsic Muscles of Hand</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Upper Limb"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Upper Limb"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Intrinsic Muscles of Hand" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Intrinsic Muscles of Hand" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Opponens pollicis muscle"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Flexor pollicis brevis muscle"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="1st dorsal interosseous muscle"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="First two lumbrical muscles (reflected)"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Common palmar digital arteries"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Deep palmar (arterial) arch"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Deep branch of ulnar nerve"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Median nerve"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Ulnar artery"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Ulnar nerve"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Radial artery"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Flexor retinaculum (transverse carpal ligament) (reflected)"></div>
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Opponens pollicis muscle" style="position:absolute;left:93px;top:217px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 207px;left: -24px; width: 107px;">Opponens pollicis muscle</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Flexor pollicis brevis muscle" style="position:absolute;left:36px;top:328px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 289px;left: -22px; width: 105px;">Flexor pollicis brevis muscle</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="1st dorsal interosseous muscle" style="position:absolute;left:114px;top:491px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 436px;left: -40px; width: 92px;">1st dorsal interosseous muscle</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="First two lumbrical muscles (reflected)" style="position:absolute;left:150px;top:632px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 618px;left: -2px; width: 150px;">First two lumbrical muscles (reflected)</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Left" data-popup="Common palmar digital arteries" style="position:absolute;left:506px;top:615px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 625px;left: 380px; width: 122px;">Common palmar digital arteries</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Left" data-popup="Deep palmar (arterial) arch" style="position:absolute;left:514px;top:387px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 419px;left: 515px; width: 69px;">Deep palmar (arterial) arch</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Left" data-popup="Deep branch of ulnar nerve" style="position:absolute;left:514px;top:345px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 302px;left: 480px; width: 103px;">Deep branch of ulnar nerve</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Left" data-popup="Median nerve" style="position:absolute;left:514px;top:198px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 230px;left: 476px; width: 103px;">Median nerve</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Left" data-popup="Ulnar artery" style="position:absolute;left:514px;top:133px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top: 163px;left: 489px; width: 89px;">Ulnar artery</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Left" data-popup="Ulnar nerve" style="position:absolute;left:514px;top:86px;">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top: 63px;left: 488px; width: 90px;">Ulnar nerve</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Left" data-popup="Radial artery" style="position:absolute;left:191px;top:61px;">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top: 60px;left: 93px; width: 94px;">Radial artery</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Left" data-popup="Flexor retinaculum (transverse carpal ligament) (reflected)" style="position:absolute;left:156px;top:117px;">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top: 101px;left: 3px; width: 145px;">Flexor retinaculum (transverse carpal ligament) (reflected)</div>
+                            
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
