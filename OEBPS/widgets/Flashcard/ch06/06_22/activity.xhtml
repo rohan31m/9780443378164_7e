@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Muscles of Arm: Anterior View</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Upper Limb"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Upper Limb"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Muscles of Arm: Anterior View" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Muscles of Arm: Anterior View" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Biceps brachii muscle"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Deltoid muscle (reflected)"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Coracoacromial ligament"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Coracoid process"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Subscapularis muscle"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Teres major muscle"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Latissimus dorsi muscle"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Brachial artery (cut)"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Median nerve (cut)"></div>
+                        <div data-img-src='images/10.png' data-id='10' aria-hidden="true" style='background-image:url("images/10.png")' aria-label="Bicipital aponeurosis"></div>
+                        <div data-img-src='images/11.png' data-id='11' aria-hidden="true" style='background-image:url("images/11.png")' aria-label="Biceps brachii tendon"></div>
+                        <div data-img-src='images/12.png' data-id='12' aria-hidden="true" style='background-image:url("images/12.png")' aria-label="Lateral antebrachial cutaneous nerve"></div>
+                       
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Biceps brachii muscle" style="position:absolute;left:95px;top:346px">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top: 344px;left:-11px; width: 106px;"><b>Biceps brachii muscle</b></div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Deltoid muscle (reflected)" style="position:absolute;left:95px;top:152px">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top: 147px;left:32px; width: 84px;">Deltoid muscle (<i>reflected</i>)</div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Right" data-popup="Coracoacromial ligament" style="position:absolute;left:95px;top:42px">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top: 39px;left:-24px; width: 116px;">Coracoacromial ligament</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Right" data-popup="Coracoid process" style="position:absolute;left:465px;top:13px">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top: 10px;left:495px; width: 77px;">Coracoid process</div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Subscapularis muscle" style="position:absolute;left:465px;top:152px">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top: 111px;left:485px; width: 102px;">Subscapularis muscle</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Teres major muscle" style="position:absolute;left:465px;top:289px">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top: 282px;left:495px; width: 54px;">Teres major muscle</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Latissimus dorsi muscle" style="position:absolute;left:410px;top:355px">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top: 351px;left:440px; width: 117px;">Latissimus dorsi muscle</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Left" data-popup="Brachial artery (cut)" style="position:absolute;left:376px;top:429px">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top: 432px;left:406px; width: 150px;">Brachial artery (<i>cut</i>)</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Median nerve (cut)" style="position:absolute;left:376px;top:475px">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top: 478px;left:406px; width: 150px;">Median nerve (<i>cut</i>)</div>
+                            <button id="hotspot_10" class="notselected" data-id='10' data-align="Right" data-popup="Bicipital aponeurosis" style="position:absolute;left:358px;top:543px">10</button>
+                            <div id='popup_text_10' aria-hidden="true" class="hotspot_popup" style="top: 549px; left: 398px;">Bicipital aponeurosis</div>
+                            <button id="hotspot_11" class="notselected" data-id='11' data-align="Right" data-popup="Biceps brachii tendon" style="position:absolute;left:358px;top:585px">11</button>
+                            <div id='popup_text_11' aria-hidden="true" class="hotspot_popup" style="top: 589px;left:389px; width: 159px;">Biceps brachii tendon</div>
+                            <button id="hotspot_12" class="notselected" data-id='12' data-align="Right" data-popup="Lateral antebrachial cutaneous nerve" style="position:absolute;left:95px;top:554px">12</button>
+                            <div id='popup_text_12' aria-hidden="true" class="hotspot_popup" style="top: 544px;left: 5px;width: 100px;">Lateral antebrachial cutaneous nerve</div>
+                           
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
