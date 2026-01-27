@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="EN" xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Arteries Around Scapula</title>
+  <link rel="stylesheet" href="../../activity-main/style/jquery-ui.css"/>
+    <link rel="stylesheet" href="../../activity-main/style/hotspot.css"/>
+    <script type="text/javascript" src="../../activity-main/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/iscroll-zoom.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/widgetinit.js"></script>
+    <script type="text/javascript" src="../../activity-main/js/hotspot.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body style="margin:0px;">  
+    <img class="w-hotspot-img sr-only" src="images/base_bw.png" alt="Upper Limb"/>
+    <div class="w-hotspot">
+        <div id="zoomWrapper" class="zoomWrapper">
+            <div id="scroller">
+                <div class="imageContainer" style="margin-top:30px;">
+                <img class="w-hotspot-img" src="images/base_bw.png" alt="Upper Limb"/>
+                <div id="zoomContainer">
+                    <div class="imagehighlights">
+                        <div id="bwimg" aria-label="Arteries Around Scapula" aria-hidden="true" data-img-src='images/base_bw.png' data-id='bw' style='background-image:url("images/base_bw.png")'></div>
+                        <div id="colorimg" aria-label="Arteries Around Scapula" aria-hidden="true" data-img-src='images/base_color.png' data-id='color' style='background-image:url("images/base_color.png")'></div>
+                        <div data-img-src='images/1.png' data-id='1' aria-hidden="true" style='background-image:url("images/1.png")' aria-label="Dorsal scapular artery"></div>
+                        <div data-img-src='images/2.png' data-id='2' aria-hidden="true" style='background-image:url("images/2.png")' aria-label="Supraspinatus muscle (cut)"></div>
+                        <div data-img-src='images/3.png' data-id='3' aria-hidden="true" style='background-image:url("images/3.png")' aria-label="Superior transverse scapular ligament and scapular notch"></div>
+                        <div data-img-src='images/4.png' data-id='4' aria-hidden="true" style='background-image:url("images/4.png")' aria-label="Infraspinatus muscle (cut)"></div>
+                        <div data-img-src='images/5.png' data-id='5' aria-hidden="true" style='background-image:url("images/5.png")' aria-label="Circumflex scapular artery"></div>
+                        <div data-img-src='images/6.png' data-id='6' aria-hidden="true" style='background-image:url("images/6.png")' aria-label="Posterior humeral circumflex artery (in quadrangular space) and ascending and descending branches"></div>
+                        <div data-img-src='images/7.png' data-id='7' aria-hidden="true" style='background-image:url("images/7.png")' aria-label="Infraspinous branch of suprascapular artery"></div>
+                        <div data-img-src='images/8.png' data-id='8' aria-hidden="true" style='background-image:url("images/8.png")' aria-label="Acromial branch of thoracoacromial artery"></div>
+                        <div data-img-src='images/9.png' data-id='9' aria-hidden="true" style='background-image:url("images/9.png")' aria-label="Suprascapular artery"></div>
+                        
+                        <div id="image_lines" role="img" data-img-src='images/lines.png' data-id='lines' aria-hidden="true" style='background-image:url("images/lines.png")'></div>
+                    </div>
+                    <div class="labelsdata">
+                    </div>
+                    <div class="hotspot">
+                            <button id="hotspot_1" class="notselected" data-id='1' data-align="Left" data-popup="Dorsal scapular artery" style="position:absolute;left:9px;top:139px;">1</button>
+                            <div id='popup_text_1' aria-hidden="true" class="hotspot_popup" style="top:93px; left:-36px; width:115px;">Dorsal scapular artery</div>
+                            <button id="hotspot_2" class="notselected" data-id='2' data-align="Left" data-popup="Supraspinatus muscle (cut)" style="position:absolute;left:9px;top:252px;">2</button>
+                            <div id='popup_text_2' aria-hidden="true" class="hotspot_popup" style="top:179px; left:-37px; width:76px;">Supraspinatus muscle <i>(cut)</i></div>
+                            <button id="hotspot_3" class="notselected" data-id='3' data-align="Left" data-popup="Superior transverse scapular ligament and scapular notch" style="position:absolute;left:9px;top:323px;">3</button>
+                            <div id='popup_text_3' aria-hidden="true" class="hotspot_popup" style="top:355px; left:-36px; width:159px;">Superior transverse scapular ligament and scapular notch</div>
+                            <button id="hotspot_4" class="notselected" data-id='4' data-align="Left" data-popup="Infraspinatus muscle (cut)" style="position:absolute;left:10px;top:428px;">4</button>
+                            <div id='popup_text_4' aria-hidden="true" class="hotspot_popup" style="top:469px; left:-34px; width:142px;">Infraspinatus muscle <i>(cut)</i></div>
+                            <button id="hotspot_5" class="notselected" data-id='5' data-align="Right" data-popup="Circumflex scapular artery" style="position:absolute;left:446px;top:471px;">5</button>
+                            <div id='popup_text_5' aria-hidden="true" class="hotspot_popup" style="top:504px; left:405px; width:150px;">Circumflex scapular artery</div>
+                            <button id="hotspot_6" class="notselected" data-id='6' data-align="Right" data-popup="Posterior humeral circumflex artery (in quadrangular space) and ascending and descending branches" style="position:absolute;left:514px;top:275px;">6</button>
+                            <div id='popup_text_6' aria-hidden="true" class="hotspot_popup" style="top:527px; left:420px; width:150px;">Posterior humeral circumflex artery (in quadrangular space) and ascending and descending branches</div>
+                            <button id="hotspot_7" class="notselected" data-id='7' data-align="Right" data-popup="Infraspinous branch of suprascapular artery" style="position:absolute;left:445px;top:72px;">7</button>
+                            <div id='popup_text_7' aria-hidden="true" class="hotspot_popup" style="top:56px; left:480px; width:129px;">Infraspinous branch of suprascapular artery</div>
+                            <button id="hotspot_8" class="notselected" data-id='8' data-align="Right" data-popup="Acromial branch of thoracoacromial artery" style="position:absolute;left:419px;top:32px;">8</button>
+                            <div id='popup_text_8' aria-hidden="true" class="hotspot_popup" style="top:-27px; left:382px; width:150px;">Acromial branch of thoracoacromial artery</div>
+                            <button id="hotspot_9" class="notselected" data-id='9' data-align="Right" data-popup="Suprascapular artery" style="position:absolute;left:317px;top:32px;">9</button>
+                            <div id='popup_text_9' aria-hidden="true" class="hotspot_popup" style="top:9px; left:266px; width:150px;">Suprascapular artery</div>
+                            
+                    </div>
+                </div>
+            </div>          
+        </div>          
+        </div>  
+    </div>
+</body>
+</html>    
+            
