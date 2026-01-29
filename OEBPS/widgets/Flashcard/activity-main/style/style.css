@@ -1,9 +1,10 @@
+/*
 @font-face {
 	font-family: 'Arial';
 	src: url('../fonts/arial/arial.eot');
 	src: local('Arial'), url('../fonts/arial/arial.woff') format('woff'), url('../fonts/arial/arial.ttf') format('truetype');
 }
-
+*/
 html, body {
   height: 100%;
   overflow: hidden;
@@ -56,7 +57,7 @@ html, body {
   height: 100%;
   width:auto;
   max-width: 650px;
-  font-family: 'Arial';
+  /*font-family: 'Arial';*/
 }
 
 #framecontainer{ 
@@ -99,7 +100,8 @@ html, body {
 .h-hotspot .commentParagraph{
 	border: 1px solid black;
   background: #d0cdcd;
-  padding: 10px 0px 0px 10px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 10px;
 }
 .h-hotspot .hotspot .notselected{
   background: white;
@@ -137,7 +139,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 
 .h-hotspot .modalbg {
   position: fixed;
-  font-family: 'Arial';
+  /*font-family: 'Arial';*/
+  font-family: Georgia, serif;
   top: 0;
   right: 0;
   bottom: 0;
@@ -271,8 +274,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 	/*width: 125px;*/
 	color:#FFFFFF;
   margin: 0px;
-  font-size: 20px;
-  font-family: 'Arial';
+  /*font-size: 20px;
+  font-family: 'Arial';*/
+  font-family: Georgia, serif;
   text-decoration: none;
   font-weight: 200;
   cursor: pointer;
@@ -298,7 +302,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
     display: none;
  }
 #nomargin{
-  margin: -10px 0px 0px -10px;
+  /*margin: -10px 0px 0px -10px;*/
 }
 
 :focus-visible{
