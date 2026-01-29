@@ -154,7 +154,9 @@ var hotspot = function (data) {
 		
 		jqnc(data).find('.hotspot > button').each(function () {
 			//jqnc(this).attr('aria-label', jqnc(this).attr('data-popup'));
-			jqnc(this).attr('aria-label', "label " + jqnc(this).attr('data-id'));
+			if(!jqnc(this).attr('aria-label')){
+				jqnc(this).attr('aria-label', "label " + jqnc(this).attr('data-id'));
+			}
 			jqnc(this).attr('aria-expanded', "false");
 			jqnc(this).removeAttr('aria-describedby');
 		});		
