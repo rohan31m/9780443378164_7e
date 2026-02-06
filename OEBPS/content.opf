@@ -67,13 +67,17 @@
 <item id="idrefa1" href="widgets/Flashcard/activity-main/style/style.css" media-type="text/css"/>
 <item id="idrefa2" href="widgets/Flashcard/activity-main/style/jquery-ui.css" media-type="text/css"/>
 
-<item id="chapter01_mcss_xhtml" href="widgets/MCSS/xhtml/chapter01_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter02_mcss_xhtml" href="widgets/MCSS/xhtml/chapter02_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter03_mcss_xhtml" href="widgets/MCSS/xhtml/chapter03_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter04_mcss_xhtml" href="widgets/MCSS/xhtml/chapter04_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter05_mcss_xhtml" href="widgets/MCSS/xhtml/chapter05_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter06_mcss_xhtml" href="widgets/MCSS/xhtml/chapter06_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
-<item id="chapter07_mcss_xhtml" href="widgets/MCSS/xhtml/chapter07_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="min_js1" href="widgets/MCSS/script/jquery-3.6.0.min.js" media-type="application/javascript"/>
+<item id="ch001_assessment_js" href="widgets/MCSS/js/ch001_assessment.js" media-type="application/javascript"/>
+<item id="main_js1" href="widgets/MCSS/script/main.js" media-type="application/javascript"/>
+<item id="ch002_assessment_js" href="widgets/MCSS/js/ch002_assessment.js" media-type="application/javascript"/>
+<item id="ch003_assessment_js" href="widgets/MCSS/js/ch003_assessment.js" media-type="application/javascript"/>
+<item id="ch004_assessment_js" href="widgets/MCSS/js/ch004_assessment.js" media-type="application/javascript"/>
+<item id="ch005_assessment_js" href="widgets/MCSS/js/ch005_assessment.js" media-type="application/javascript"/>
+<item id="ch006_assessment_js" href="widgets/MCSS/js/ch006_assessment.js" media-type="application/javascript"/>
+<item id="ch007_assessment_js" href="widgets/MCSS/js/ch007_assessment.js" media-type="application/javascript"/>
+
+<item id="style_css_mcss" href="widgets/MCSS/css/style.css" media-type="text/css"/>
 
 
 
@@ -86,6 +90,20 @@
 <item id="activity_1" href="widgets/Flashcard/ch01/01_01/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="activity_2" href="widgets/Flashcard/ch01/01_05/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="activity_3" href="widgets/Flashcard/ch01/01_63/activity.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<item id="left_arrow_default_svg" href="widgets/MCSS/images/left-arrow-default.svg" media-type="image/svg+xml"/>
+<item id="left_disabled_svg" href="widgets/MCSS/images/left-arrow-disabled.svg" media-type="image/svg+xml"/>
+<item id="left_arrow_hover_svg" href="widgets/MCSS/images/left-arrow-hover.svg" media-type="image/svg+xml"/>
+<item id="right_arrow_default_svg" href="widgets/MCSS/images/right-arrow-default.svg" media-type="image/svg+xml"/>
+<item id="right_disabled_svg" href="widgets/MCSS/images/right-arrow-disabled.svg" media-type="image/svg+xml"/>
+<item id="right_arrow_hover_svg" href="widgets/MCSS/images/right-arrow-hover.svg" media-type="image/svg+xml"/>
+<item id="figure_arrow_mask_right_png" href="widgets/MCSS/images/figure_arrow_mask_right.png" media-type="image/png"/>
+<item id="check_normal_png" href="widgets/MCSS/images/check_normal.png" media-type="image/png"/>
+<item id="false_red_png" href="widgets/MCSS/images/false_red.png" media-type="image/png"/>
+
+<item id="assessment_check_large_png" href="widgets/MCSS/images/assessment_check_large.png" media-type="image/png"/>
+<item id="x_png" href="widgets/MCSS/images/x.png" media-type="image/png"/>
+<item id="figure_arrow_mask_left_png" href="widgets/MCSS/images/figure_arrow_mask_left.png" media-type="image/png"/>
 
 <item id="idref6" href="widgets/Flashcard/ch01/01_01/images/base_bw.png" media-type="image/png"/>
 <item id="idref7" href="widgets/Flashcard/ch01/01_01/images/base_color.png" media-type="image/png"/>
@@ -4964,13 +4982,13 @@
 <item href="IMAGES/B9780443378157000072/main.assets/u07-74-9780443378157.jpg" id="B9780443378157000072_u07-74-9780443378157" media-type="image/jpeg"/>
 <item href="IMAGES/B9780443378157000072/main.assets/u07-75-9780443378157.jpg" id="B9780443378157000072_u07-75-9780443378157" media-type="image/jpeg"/>
 <item href="XHTML/B9780443378157150015/Multiple_Choice_Questions_e1-e72_B9780443378157150015.xhtml" id="Multiple_Choice_Questions_e1-e72_B9780443378157150015" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter01_mcss.xhtml" id="chapter01_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter02_mcss.xhtml" id="chapter02_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter03_mcss.xhtml" id="chapter03_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter04_mcss.xhtml" id="chapter04_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter05_mcss.xhtml" id="chapter05_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter06_mcss.xhtml" id="chapter06_mcss_xhtml" media-type="application/xhtml+xml"/>
-<item href="widgets/MCSS/xhtml/chapter07_mcss.xhtml" id="chapter07_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item id="chapter01_mcss_xhtml" href="widgets/MCSS/xhtml/chapter01_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter02_mcss_xhtml" href="widgets/MCSS/xhtml/chapter02_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter03_mcss_xhtml" href="widgets/MCSS/xhtml/chapter03_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter04_mcss_xhtml" href="widgets/MCSS/xhtml/chapter04_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter05_mcss_xhtml" href="widgets/MCSS/xhtml/chapter05_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter06_mcss_xhtml" href="widgets/MCSS/xhtml/chapter06_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter07_mcss_xhtml" href="widgets/MCSS/xhtml/chapter07_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 
 <item href="widgets/Flashcard/ch01/01_02/activityframe.xhtml" id="activityframe_01_02" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_03/activityframe.xhtml" id="activityframe_01_03" media-type="application/xhtml+xml" properties="scripted"/>
