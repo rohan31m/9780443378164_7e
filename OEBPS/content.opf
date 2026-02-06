@@ -4964,6 +4964,13 @@
 <item href="IMAGES/B9780443378157000072/main.assets/u07-74-9780443378157.jpg" id="B9780443378157000072_u07-74-9780443378157" media-type="image/jpeg"/>
 <item href="IMAGES/B9780443378157000072/main.assets/u07-75-9780443378157.jpg" id="B9780443378157000072_u07-75-9780443378157" media-type="image/jpeg"/>
 <item href="XHTML/B9780443378157150015/Multiple_Choice_Questions_e1-e72_B9780443378157150015.xhtml" id="Multiple_Choice_Questions_e1-e72_B9780443378157150015" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter01_mcss.xhtml" id="chapter01_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter02_mcss.xhtml" id="chapter02_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter03_mcss.xhtml" id="chapter03_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter04_mcss.xhtml" id="chapter04_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter05_mcss.xhtml" id="chapter05_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter06_mcss.xhtml" id="chapter06_mcss_xhtml" media-type="application/xhtml+xml"/>
+<item href="widgets/MCSS/xhtml/chapter07_mcss.xhtml" id="chapter07_mcss_xhtml" media-type="application/xhtml+xml"/>
 
 <item href="widgets/Flashcard/ch01/01_02/activityframe.xhtml" id="activityframe_01_02" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_03/activityframe.xhtml" id="activityframe_01_03" media-type="application/xhtml+xml" properties="scripted"/>
@@ -6596,6 +6603,14 @@
 <itemref idref="B9780443378157000072_f0375" linear="yes"/>
 <itemref idref="B9780443378157000072_f0380" linear="yes"/>
 <itemref idref="Multiple_Choice_Questions_e1-e72_B9780443378157150015" linear="yes"/>
+<itemref idref="chapter01_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter02_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter03_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter04_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter05_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter06_mcss_xhtml" linear="yes"/>
+<itemref idref="chapter07_mcss_xhtml" linear="yes"/>
+
 </spine>
 <guide>
 <reference href="XHTML/cover.xhtml" title="Cover Image" type="cover"/>
