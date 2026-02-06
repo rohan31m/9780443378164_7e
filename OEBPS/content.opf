@@ -67,6 +67,16 @@
 <item id="idrefa1" href="widgets/Flashcard/activity-main/style/style.css" media-type="text/css"/>
 <item id="idrefa2" href="widgets/Flashcard/activity-main/style/jquery-ui.css" media-type="text/css"/>
 
+<item id="chapter01_mcss_xhtml" href="widgets/MCSS/xhtml/chapter01_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter02_mcss_xhtml" href="widgets/MCSS/xhtml/chapter02_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter03_mcss_xhtml" href="widgets/MCSS/xhtml/chapter03_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter04_mcss_xhtml" href="widgets/MCSS/xhtml/chapter04_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter05_mcss_xhtml" href="widgets/MCSS/xhtml/chapter05_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter06_mcss_xhtml" href="widgets/MCSS/xhtml/chapter06_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="chapter07_mcss_xhtml" href="widgets/MCSS/xhtml/chapter07_mcss.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+
+
 <item id="index_1" href="widgets/Flashcard/ch01/01_01/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_2" href="widgets/Flashcard/ch01/01_05/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_3" href="widgets/Flashcard/ch01/01_63/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
