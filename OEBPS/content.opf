@@ -78,9 +78,6 @@
 <item id="ch007_assessment_js" href="widgets/MCSS/js/ch007_assessment.js" media-type="application/javascript"/>
 
 <item id="style_css_mcss" href="widgets/MCSS/css/style.css" media-type="text/css"/>
-
-
-
 <item id="index_1" href="widgets/Flashcard/ch01/01_01/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_2" href="widgets/Flashcard/ch01/01_05/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
 <item id="index_3" href="widgets/Flashcard/ch01/01_63/index.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
