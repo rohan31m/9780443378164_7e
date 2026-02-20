@@ -300,7 +300,7 @@ var quiz = [
         q2: ``,
         q3: [],
         option: [`<!--A. -->Bronchial`,
-        `<!--B. -->Internal thoracic`,
+        `<!--B. -->Epigastric`,
         `<!--C. -->Mediastinal`,
         `<!--D. -->Pericardiacophrenic`,
         `<!--E. -->Pulmonary`],
