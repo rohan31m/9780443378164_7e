@@ -195,6 +195,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
   font-size: 1.2em;
   /*padding: 10px 5px;*/
   margin: 6px;
+  padding-right: 135px;
 }
 .h-hotspot .commentButton{
   position: unset;
@@ -579,7 +580,7 @@ h2#dialogTitle{
     height: 730px;
   }
   .h-hotspot .titleContainer{
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     font-weight: 600;
     /*top: -34px;
