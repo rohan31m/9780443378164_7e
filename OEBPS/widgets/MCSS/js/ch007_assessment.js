@@ -245,9 +245,9 @@ var quiz = [
         `<b>(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`,
-        `<b><!--A. -->(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`],
+        `<b><!--E. -->(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 0,
+        answer: 4,
         ansText: `<b><!--E. -->(See <a href="../../../XHTML/B9780443378157000072/CH0007_513-664_B9780443378157000072.xhtml#s0160">card 7-11</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``

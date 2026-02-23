@@ -373,7 +373,7 @@ var quiz = [
         `<b>(See <a href="../../../XHTML/B9780443378157000035/CH0003_200-256_B9780443378157000035.xhtml#s0330">card 3-17</a>)</b>`,],
        
         optionStyleType: `st-upper-alpha`,
-        answer: 0,
+        answer: 2,
         ansText: `<b><!--C. -->(See <a href="../../../XHTML/B9780443378157000035/CH0003_200-256_B9780443378157000035.xhtml#s0330">card 3-17</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``

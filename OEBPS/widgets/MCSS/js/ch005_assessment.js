@@ -289,7 +289,7 @@ var quiz = [
         `<b>!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0265">card 5-13</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0265">card 5-13</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 1,
+        answer: 3,
         ansText: `<b><!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0265">card 5-13</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``
@@ -373,7 +373,7 @@ var quiz = [
         `<b>(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0325">card 5-17</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0325">card 5-17</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 2,
+        answer: 1,
         ansText: `<b><!--B. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0325">card 5-17</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``
@@ -458,7 +458,7 @@ var quiz = [
         `<b><!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0340">card 5-18</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0340">card 5-18</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 4,
+        answer: 3,
         ansText: `<b><!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0340">card 5-18</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``
@@ -479,7 +479,7 @@ var quiz = [
         `<b><!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0400">card 5-22</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0400">card 5-22</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 4,
+        answer: 3,
         ansText: `<b><!--D. -->(See <a href="../../../XHTML/B9780443378157000059/CH0005_318-374_B9780443378157000059.xhtml#s0400">card 5-22</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``
