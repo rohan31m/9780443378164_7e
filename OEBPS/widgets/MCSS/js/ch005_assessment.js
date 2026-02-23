@@ -273,7 +273,6 @@ var quiz = [
         state: `notAnswered`,
         userAnswered: ``
     },
-
     {
         q: `Which of the following branches of the internal iliac artery supplies blood to the urinary bladder?`,
         q2: ``,
@@ -294,7 +293,6 @@ var quiz = [
         state: `notAnswered`,
         userAnswered: ``
     },
-
     {
         q: `Which of the following lymph node collections is most likely to receive lymphatic drainage from the labia majora?`,
         q2: ``,
