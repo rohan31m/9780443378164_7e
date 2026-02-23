@@ -5049,6 +5049,7 @@
 <item href="widgets/Flashcard/ch01/01_62/activityframe.xhtml" id="activityframe_01_62" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_64/activityframe.xhtml" id="activityframe_01_64" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_65/activityframe.xhtml" id="activityframe_01_65" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_66/activityframe.xhtml" id="activityframe_01_66" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_67/activityframe.xhtml" id="activityframe_01_67" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_68/activityframe.xhtml" id="activityframe_01_68" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_69/activityframe.xhtml" id="activityframe_01_69" media-type="application/xhtml+xml" properties="scripted"/>
@@ -5057,6 +5058,7 @@
 <item href="widgets/Flashcard/ch01/01_72/activityframe.xhtml" id="activityframe_01_72" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_73/activityframe.xhtml" id="activityframe_01_73" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_74/activityframe.xhtml" id="activityframe_01_74" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_75/activityframe.xhtml" id="activityframe_01_75" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_76/activityframe.xhtml" id="activityframe_01_76" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_77/activityframe.xhtml" id="activityframe_01_77" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch02/02_01/activityframe.xhtml" id="activityframe_02_01" media-type="application/xhtml+xml" properties="scripted"/>
@@ -5372,6 +5374,7 @@
 <item href="widgets/Flashcard/ch01/01_62/activity.xhtml" id="activity_01_62" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_64/activity.xhtml" id="activity_01_64" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_65/activity.xhtml" id="activity_01_65" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_66/activity.xhtml" id="activity_01_66" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_67/activity.xhtml" id="activity_01_67" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_68/activity.xhtml" id="activity_01_68" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_69/activity.xhtml" id="activity_01_69" media-type="application/xhtml+xml" properties="scripted"/>
@@ -5380,6 +5383,7 @@
 <item href="widgets/Flashcard/ch01/01_72/activity.xhtml" id="activity_01_72" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_73/activity.xhtml" id="activity_01_73" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_74/activity.xhtml" id="activity_01_74" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_75/activity.xhtml" id="activity_01_75" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_76/activity.xhtml" id="activity_01_76" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_77/activity.xhtml" id="activity_01_77" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch02/02_01/activity.xhtml" id="activity_02_01" media-type="application/xhtml+xml" properties="scripted"/>
@@ -5695,6 +5699,7 @@
 <item href="widgets/Flashcard/ch01/01_62/index.xhtml" id="index_01_62" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_64/index.xhtml" id="index_01_64" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_65/index.xhtml" id="index_01_65" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_66/index.xhtml" id="index_01_66" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_67/index.xhtml" id="index_01_67" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_68/index.xhtml" id="index_01_68" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_69/index.xhtml" id="index_01_69" media-type="application/xhtml+xml" properties="scripted"/>
@@ -5703,6 +5708,7 @@
 <item href="widgets/Flashcard/ch01/01_72/index.xhtml" id="index_01_72" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_73/index.xhtml" id="index_01_73" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_74/index.xhtml" id="index_01_74" media-type="application/xhtml+xml" properties="scripted"/>
+<item href="widgets/Flashcard/ch01/01_75/index.xhtml" id="index_01_75" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_76/index.xhtml" id="index_01_76" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch01/01_77/index.xhtml" id="index_01_77" media-type="application/xhtml+xml" properties="scripted"/>
 <item href="widgets/Flashcard/ch02/02_01/index.xhtml" id="index_02_01" media-type="application/xhtml+xml" properties="scripted"/>
