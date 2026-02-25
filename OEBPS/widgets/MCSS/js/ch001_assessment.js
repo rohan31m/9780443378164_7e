@@ -1580,7 +1580,7 @@ optionFeedback: [`<b>(See <a href="../../../XHTML/B9780443378157000011/CH0001_1-
         `<b>(See <a href="../../../XHTML/B9780443378157000011/CH0001_1-156_B9780443378157000011.xhtml#s1535">card 1-63</a>)</b>`,
         `<b>(See <a href="../../../XHTML/B9780443378157000011/CH0001_1-156_B9780443378157000011.xhtml#s1535">card 1-63</a>)</b>`],
         optionStyleType: `st-upper-alpha`,
-        answer: 1,
+        answer: 2,
         ansText: `<b><!--C. -->(See <a href="../../../XHTML/B9780443378157000011/CH0001_1-156_B9780443378157000011.xhtml#s1535">card 1-63</a>)</b>`,
         state: `notAnswered`,
         userAnswered: ``
