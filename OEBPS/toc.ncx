@@ -28,17 +28,17 @@
 				</navLabel>
 				<content src="XHTML/title.xhtml"/>
 			</navPoint>
-			<navPoint id="toc4" playOrder="4">
-				<navLabel>
-					<text>Table of Contents</text>
-				</navLabel>
-				<content src="XHTML/contents.xhtml"/>
-			</navPoint>
-			<navPoint id="toc5" playOrder="5">
+			<navPoint id="toc5" playOrder="4">
 				<navLabel>
 					<text>Copyright</text>
 				</navLabel>
 				<content src="XHTML/B9780443378157120016/Copyright_iv_B9780443378157120016.xhtml#B9780443378157120016"/>
+			</navPoint>
+			<navPoint id="toc4" playOrder="5">
+				<navLabel>
+					<text>Table of Contents</text>
+				</navLabel>
+				<content src="XHTML/contents.xhtml"/>
 			</navPoint>
 			<navPoint id="toc6" playOrder="6">
 				<navLabel>
