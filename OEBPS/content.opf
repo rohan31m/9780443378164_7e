@@ -6321,8 +6321,8 @@
 <spine page-progression-direction="ltr" toc="ncx">
 <itemref idref="html-cover-page" linear="yes"/>
 <itemref idref="title" linear="yes"/>
-<itemref idref="Contents" linear="yes"/>
 <itemref idref="Copyright_iv_B9780443378157120016" linear="yes"/>
+<itemref idref="Contents" linear="yes"/>
 <itemref idref="Preface_vi_B9780443378157050013" linear="yes"/>
 <itemref idref="CH0001_1-156_B9780443378157000011" linear="yes"/>
 <itemref idref="B9780443378157000011_f0010" linear="yes"/>
